@@ -1,0 +1,19 @@
+{
+  "name": "organic-alchemy-started-cells-info",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/node-organic/organic-alchemy-started-cells-info.git"
+  },
+  "author": "Boris Filipov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/node-organic/organic-alchemy-started-cells-info/issues"
+  },
+  "homepage": "https://github.com/node-organic/organic-alchemy-started-cells-info#readme"
+}
