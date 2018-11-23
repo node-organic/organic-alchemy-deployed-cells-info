@@ -1,6 +1,6 @@
 {
   "name": "organic-alchemy-started-cells-info",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An `Array` implementation with organic alchemy inside.",
   "main": "index.js",
   "scripts": {
