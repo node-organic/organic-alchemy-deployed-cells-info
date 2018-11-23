@@ -23,6 +23,6 @@ module.exports = class extends Array {
     }
   }
   addMany (cellsInfo) {
-    cellsInfo.forEach(v => this.push(v))
+    cellsInfo.forEach(v => this.add(v))
   }
 }
