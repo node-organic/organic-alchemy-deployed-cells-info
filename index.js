@@ -3,7 +3,8 @@ module.exports = class extends Array {
     for (let i = 0; i < this.length; i++) {
       if (this[i].name === cellInfo.name &&
         this[i].version === cellInfo.version &&
-        this[i].mode === cellInfo.mode) {
+        this[i].mode === cellInfo.mode &&
+        this[i].index === cellInfo.index) {
         return this[i]
       }
     }
@@ -12,7 +13,8 @@ module.exports = class extends Array {
     for (let i = 0; i < this.length; i++) {
       if (this[i].name === cellInfo.name &&
         this[i].version === cellInfo.version &&
-        this[i].mode === cellInfo.mode) {
+        this[i].mode === cellInfo.mode &&
+        this[i].index === cellInfo.index) {
         this.splice(i, 1)
       }
     }

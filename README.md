@@ -26,7 +26,8 @@ Adds multiple array items at once by `cellsInfo` array. Will not add array items
 {
   name: String,
   version: String,
-  mode: String
+  mode: String,
+  index: String
 }
 ```
 
