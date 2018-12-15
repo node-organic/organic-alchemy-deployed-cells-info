@@ -4,7 +4,7 @@ module.exports = class extends Array {
       if (this[i].name === cellInfo.name &&
         this[i].version === cellInfo.version &&
         this[i].mode === cellInfo.mode &&
-        this[i].index === cellInfo.index) {
+        this[i].siblingIndex === cellInfo.siblingIndex) {
         return this[i]
       }
     }
@@ -14,7 +14,7 @@ module.exports = class extends Array {
       if (this[i].name === cellInfo.name &&
         this[i].version === cellInfo.version &&
         this[i].mode === cellInfo.mode &&
-        this[i].index === cellInfo.index) {
+        this[i].siblingIndex === cellInfo.siblingIndex) {
         this.splice(i, 1)
       }
     }

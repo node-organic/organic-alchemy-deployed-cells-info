@@ -1,6 +1,6 @@
-# organic-alchemy-started-cells-info
+# organic-alchemy-deployed-cells-info
 
-An `Array` implementation with organic alchemy inside.
+An `Array` implementation of deployed cells. Maintains unique presence of deployed cells and their offspring (running) instances.
 
 ## methods
 
@@ -27,7 +27,7 @@ Adds multiple array items at once by `cellsInfo` array. Will not add array items
   name: String,
   version: String,
   mode: String,
-  index: String
+  siblingIndex: String
 }
 ```
 
